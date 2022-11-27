@@ -17,7 +17,7 @@ class CalculatoScreenState extends State<CalculatorScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Calculator"),
+        title: Text("Calculator",style: TextStyle(fontSize: 28,color: Colors.green),),
       ),
       body: Column(
         children: [
